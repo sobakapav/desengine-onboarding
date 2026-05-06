@@ -21,92 +21,13 @@
  - обязательно использовать синтаксис `export default function Component` или его аналоги.
 
 ## Используемые компоненты
-Крайне желательно вместо сырого HTML использовать традиционные компоненты React/Next.js:
-<Image />
-<Link />
-<Fragment>
-<Suspense>
-<Button />
-<Card />
-<Input />
-<Textarea />
-<Select />
-<Tabs />
-<Accordion />
-<Dialog />
-<Form />
-<FormField />
-<FormItem />
-<FormLabel />
-<FormControl />
-<FormDescription />
-<FormMessage />
+Крайне желательно вместо сырого HTML использовать традиционные компоненты React/Next.js: Fragment, Link, Image, Script, Head, Route, Routes, Outlet, Navigate, Option.
 
-Если используешь проектные UI-компоненты, импортируй их канонически, например:
-- `import { Button } from "@/components/ui/button"`
-- `import { Input } from "@/components/ui/input"`
-- `import { Textarea } from "@/components/ui/textarea"`
+Также разрешены такие shadcn/ui-компоненты: Accordion, Alert, Alert Dialog, Aspect Ratio, Avatar, Badge, Breadcrumb, Button, Button Group, Calendar, Card, Carousel, Chart, Checkbox, Collapsible, Combobox, Command, Context Menu, Data Table, Date Picker, Dialog, Direction, Drawer, Dropdown Menu, Empty, Field, Hover Card, Input, Input Group, Input OTP, Item, Kbd, Label, Menubar, Native Select, Navigation Menu, Pagination, Popover, Progress, Radio Group, Resizable, Scroll Area, Select, Separator, Sheet, Sidebar, Skeleton, Slider, Sonner, Spinner, Switch, Table, Tabs, Textarea, Toast, Toggle, Toggle Group, Tooltip. Эти компоненты нужно импортировать из "@/components/ui/".
 
-Также разрешены shadcn/ui-компоненты:
-- Accordion
-- Alert
-- Alert Dialog
-- Aspect Ratio
-- Avatar
-- Badge
-- Breadcrumb
-- Button
-- Button Group
-- Calendar
-- Card
-- Carousel
-- Chart
-- Checkbox
-- Collapsible
-- Combobox
-- Command
-- Context Menu
-- Data Table
-- Date Picker
-- Dialog
-- Direction
-- Drawer
-- Dropdown Menu
-- Empty
-- Field
-- Hover Card
-- Input
-- Input Group
-- Input OTP
-- Item
-- Kbd
-- Label
-- Menubar
-- Native Select
-- Navigation Menu
-- Pagination
-- Popover
-- Progress
-- Radio Group
-- Resizable
-- Scroll Area
-- Select
-- Separator
-- Sheet
-- Sidebar
-- Skeleton
-- Slider
-- Sonner
-- Spinner
-- Switch
-- Table
-- Tabs
-- Textarea
-- Toast
-- Toggle
-- Toggle Group
-- Tooltip
-- Typography
+Используй только существующие компоненты, ни в коем случае не придумывай новые.
+
+Компонент Text запрещён.
 
 Стандартные HTML-теги использовать можно, но только если в списках выше не нашлось ничего подходящего.
 
