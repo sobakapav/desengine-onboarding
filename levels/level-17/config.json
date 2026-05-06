@@ -1,0 +1,26 @@
+{
+  "id": "level-17",
+  "number": 17,
+  "title": "Уровень 17",
+  "promptKey": "level-17",
+  "layoutKey": "shared-lab",
+  "maxPromptsPerTask": 10,
+  "labId": "shared-lab",
+  "images": [
+    {
+      "id": "base",
+      "show": true
+    },
+    {
+      "id": "variants",
+      "show": true
+    }
+  ],
+  "editableFileIds": [
+    "component",
+    "stories",
+    "styles",
+    "mock",
+    "props"
+  ]
+}

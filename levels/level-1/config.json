@@ -1,0 +1,19 @@
+{
+  "id": "level-1",
+  "number": 1,
+  "title": "Уровень 1",
+  "promptKey": "level-1",
+  "layoutKey": "shared-lab",
+  "maxPromptsPerTask": 10,
+  "labId": "level-1",
+  "images": [
+    {
+      "id": "base",
+      "show": true
+    }
+  ],
+  "editableFileIds": [
+    "component",
+    "stories"
+  ]
+}

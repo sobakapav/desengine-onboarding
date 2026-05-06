@@ -1,0 +1,26 @@
+{
+  "id": "level-5",
+  "number": 5,
+  "title": "Уровень 5",
+  "promptKey": "level-5",
+  "layoutKey": "shared-lab",
+  "maxPromptsPerTask": 10,
+  "labId": "shared-lab",
+  "images": [
+    {
+      "id": "base",
+      "show": true
+    },
+    {
+      "id": "variants",
+      "show": true
+    }
+  ],
+  "editableFileIds": [
+    "component",
+    "stories",
+    "styles",
+    "mock",
+    "props"
+  ]
+}
