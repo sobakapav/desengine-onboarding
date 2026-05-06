@@ -1,36 +1,108 @@
-## Особые требования к результату
-### Форматы файлов
-- список файлов строго ограничен:
- - Component.tsx
- - styles.ts
- - mock.ts
- - props.ts
- - Component.stories.ts
-- оформление выноси в отдельный файл styles.ts;
-- работу с пропсами выноси в отдельный файл props.ts;
-- примеры выноси в отдельный файл mock.ts;
-- истории-контракты для Storybook выноси в отдельный файл Component.stories.ts;
-- структуру компонента держи в Component.tsx;
-- никакие другие файлы создавать нельзя
-
 ## Общие ожидания к коду
-- делай код читаемым и “учебным”;
+- делай код читаемым и «учебным»;
 - выбирай простые именования;
 - избегай лишних абстракций;
+- типовые абстракции (стили и т.п.) выноси как минимум в отдельные классы (а если это разрешено — в отдельные файлы);
 - закладывай структуру так, чтобы её было удобно улучшать итерациями.
 
-## Разрешённые архитектурные приёмы
- - можно использовать CSS-стили в формате Tailwind CSS;
- - можно использовать props;
- - 
-
 ## Запрещённые архитектурные приёмы
+ - пропсы запрещены;
  - интерактив запрещён;
  - контекстные компоненты запрещены;
- - состояния и конечный автомат запрещены;
  - вложенные кастомные компоненты запрещены;
  - состояния запрещены;
  - конечные автоматы запрещены;
  - привязка к внешним данным запрещена.
+
+## Требования к синтаксису
+ - функция-компонент называется Component;
+ - по максимуму используется набор компонентов из shadcn/ui;
+ - по максимуму используется набор традиционных React-компонентов вроде <Image />;
+ - обязательно использовать синтаксис `export default function Component` или его аналоги.
+
+## Используемые компоненты
+Крайне желательно вместо сырого HTML использовать традиционные компоненты React/Next.js:
+<Image />
+<Link />
+<Fragment>
+<Suspense>
+<Button />
+<Card />
+<Input />
+<Textarea />
+<Select />
+<Tabs />
+<Accordion />
+<Dialog />
+<Form />
+<FormField />
+<FormItem />
+<FormLabel />
+<FormControl />
+<FormDescription />
+<FormMessage />
+
+Также разрешены shadcn/ui-компоненты:
+- Accordion
+- Alert
+- Alert Dialog
+- Aspect Ratio
+- Avatar
+- Badge
+- Breadcrumb
+- Button
+- Button Group
+- Calendar
+- Card
+- Carousel
+- Chart
+- Checkbox
+- Collapsible
+- Combobox
+- Command
+- Context Menu
+- Data Table
+- Date Picker
+- Dialog
+- Direction
+- Drawer
+- Dropdown Menu
+- Empty
+- Field
+- Hover Card
+- Input
+- Input Group
+- Input OTP
+- Item
+- Kbd
+- Label
+- Menubar
+- Native Select
+- Navigation Menu
+- Pagination
+- Popover
+- Progress
+- Radio Group
+- Resizable
+- Scroll Area
+- Select
+- Separator
+- Sheet
+- Sidebar
+- Skeleton
+- Slider
+- Sonner
+- Spinner
+- Switch
+- Table
+- Tabs
+- Textarea
+- Toast
+- Toggle
+- Toggle Group
+- Tooltip
+- Typography
+
+Стандартные HTML-теги использовать можно, но только если в списках выше не нашлось ничего подходящего.
 
 Важно: верни результат строго в формате JSON, который описан ниже.
