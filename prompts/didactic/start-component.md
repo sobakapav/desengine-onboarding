@@ -42,6 +42,11 @@
 <FormDescription />
 <FormMessage />
 
+Если используешь проектные UI-компоненты, импортируй их канонически, например:
+- `import { Button } from "@/components/ui/button"`
+- `import { Input } from "@/components/ui/input"`
+- `import { Textarea } from "@/components/ui/textarea"`
+
 Также разрешены shadcn/ui-компоненты:
 - Accordion
 - Alert
