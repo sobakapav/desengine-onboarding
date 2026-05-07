@@ -2,7 +2,6 @@
   "id": "level-8",
   "number": 8,
   "title": "Уровень 8",
-  "promptKey": "level-8",
   "layoutKey": "shared-lab",
   "maxPromptsPerTask": 10,
   "labId": "shared-lab",

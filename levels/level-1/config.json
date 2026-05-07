@@ -1,10 +1,9 @@
 {
   "id": "level-1",
   "number": 1,
-  "title": "Уровень 1",
-  "promptKey": "level-1",
+  "title": "Наш самый первый код",
   "layoutKey": "shared-lab",
-  "maxPromptsPerTask": 10,
+  "maxPromptsPerTask": 1,
   "labId": "level-1",
   "images": [
     {
@@ -13,7 +12,6 @@
     }
   ],
   "editableFileIds": [
-    "component",
-    "stories"
+    "component"
   ]
 }

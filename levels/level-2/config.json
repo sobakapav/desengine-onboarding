@@ -2,23 +2,17 @@
   "id": "level-2",
   "number": 2,
   "title": "Уровень 2",
-  "promptKey": "level-2",
   "layoutKey": "shared-lab",
-  "maxPromptsPerTask": 10,
+  "maxPromptsPerTask": 3,
   "labId": "level-2",
   "images": [
     {
       "id": "base",
       "show": true
-    },
-    {
-      "id": "variants",
-      "show": true
     }
   ],
   "editableFileIds": [
     "component",
-    "stories",
     "styles"
   ]
 }
