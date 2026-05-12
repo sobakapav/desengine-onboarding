@@ -3,7 +3,7 @@
   "number": 1,
   "title": "Наш самый первый код",
   "layoutKey": "shared-lab",
-  "maxPromptsPerTask": 1,
+  "maxPromptsPerTask": 3,
   "labId": "level-1",
   "images": [
     {
