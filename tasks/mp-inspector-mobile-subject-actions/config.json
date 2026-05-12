@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 372,
-            "height": 60
-        },
-        "variants": {
-            "width": 412,
-            "height": 162
-        }
+  "images": {
+    "base": {
+      "width": 372,
+      "height": 60
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «mp-inspector-mobile-subject-actions» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «mp-inspector-mobile-subject-actions» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 412,
+      "height": 162
+    }
+  },
+  "maxLevel": 20
 }

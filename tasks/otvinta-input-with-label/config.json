@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 260,
-            "height": 56
-        },
-        "variants": {
-            "width": 581,
-            "height": 490
-        }
+  "images": {
+    "base": {
+      "width": 260,
+      "height": 56
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «otvinta-input-with-label» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «otvinta-input-with-label» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 581,
+      "height": 490
+    }
+  },
+  "maxLevel": 20
 }

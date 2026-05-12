@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 114,
-            "height": 20
-        },
-        "variants": {
-            "width": 321,
-            "height": 149
-        }
+  "images": {
+    "base": {
+      "width": 114,
+      "height": 20
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «tmh-doctor-cabinet-link» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «tmh-doctor-cabinet-link» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 321,
+      "height": 149
+    }
+  },
+  "maxLevel": 20
 }

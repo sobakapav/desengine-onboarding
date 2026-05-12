@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 482,
-            "height": 32
-        },
-        "variants": {
-            "width": 522,
-            "height": 124
-        }
+  "images": {
+    "base": {
+      "width": 482,
+      "height": 32
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «mp-inspector-divider-vks» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «mp-inspector-divider-vks» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 522,
+      "height": 124
+    }
+  },
+  "maxLevel": 20
 }

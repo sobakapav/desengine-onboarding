@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 522,
-            "height": 48
-        },
-        "variants": {
-            "width": 562,
-            "height": 160
-        }
+  "images": {
+    "base": {
+      "width": 522,
+      "height": 48
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «tmh-doctor-cabinet-doctor-card-mini» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «tmh-doctor-cabinet-doctor-card-mini» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 562,
+      "height": 160
+    }
+  },
+  "maxLevel": 20
 }

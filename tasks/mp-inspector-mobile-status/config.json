@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 252,
-            "height": 16
-        },
-        "variants": {
-            "width": 292,
-            "height": 104
-        }
+  "images": {
+    "base": {
+      "width": 252,
+      "height": 16
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «mp-inspector-mobile-status» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «mp-inspector-mobile-status» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 292,
+      "height": 104
+    }
+  },
+  "maxLevel": 20
 }

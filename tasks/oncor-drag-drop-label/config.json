@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 105,
-            "height": 27
-        },
-        "variants": {
-            "width": 275,
-            "height": 67
-        }
+  "images": {
+    "base": {
+      "width": 105,
+      "height": 27
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «oncor-drag-drop-label» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «oncor-drag-drop-label» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 275,
+      "height": 67
+    }
+  },
+  "maxLevel": 20
 }

@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 309,
-            "height": 40
-        },
-        "variants": {
-            "width": 393,
-            "height": 184
-        }
+  "images": {
+    "base": {
+      "width": 309,
+      "height": 40
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «zapovednik-input-default» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «zapovednik-input-default» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 393,
+      "height": 184
+    }
+  },
+  "maxLevel": 20
 }

@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 107,
-            "height": 24
-        },
-        "variants": {
-            "width": 269,
-            "height": 95
-        }
+  "images": {
+    "base": {
+      "width": 107,
+      "height": 24
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «zapovednik-icon-link» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «zapovednik-icon-link» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 269,
+      "height": 95
+    }
+  },
+  "maxLevel": 20
 }

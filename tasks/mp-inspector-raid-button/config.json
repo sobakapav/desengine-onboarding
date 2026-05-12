@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 254,
-            "height": 28
-        },
-        "variants": {
-            "width": 294,
-            "height": 116
-        }
+  "images": {
+    "base": {
+      "width": 254,
+      "height": 28
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «mp-inspector-raid-button» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «mp-inspector-raid-button» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 294,
+      "height": 116
+    }
+  },
+  "maxLevel": 20
 }

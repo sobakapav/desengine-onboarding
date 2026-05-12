@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 17,
-            "height": 18
-        },
-        "variants": {
-            "width": 75,
-            "height": 87
-        }
+  "images": {
+    "base": {
+      "width": 17,
+      "height": 18
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «otvinta-badge-counter» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «otvinta-badge-counter» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 75,
+      "height": 87
+    }
+  },
+  "maxLevel": 20
 }

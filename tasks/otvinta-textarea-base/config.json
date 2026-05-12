@@ -1,17 +1,13 @@
 {
-    "images": {
-        "base": {
-            "width": 328,
-            "height": 88
-        },
-        "variants": {
-            "width": 735,
-            "height": 487
-        }
+  "images": {
+    "base": {
+      "width": 328,
+      "height": 88
     },
-    "levelTaskNotes": {
-        "1": "Собери базовую версию компонента «otvinta-textarea-base» по картинке base.png и добейся аккуратного совпадения по структуре и визуальному ритму.",
-        "2": "Развивай компонент «otvinta-textarea-base» через параметризацию базовой реализации так, чтобы variants.png получалась из той же системы без дублирования отдельной вёрстки."
-    },
-    "maxLevel": 20
+    "variants": {
+      "width": 735,
+      "height": 487
+    }
+  },
+  "maxLevel": 20
 }
