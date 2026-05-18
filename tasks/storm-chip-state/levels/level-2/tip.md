@@ -1,9 +1,7 @@
 Картинка простенькая, а закодить ее будет нелегко.
 
-Это не кнопка, это [фишка](https://mui.com/ru/components/chips/).
+Это не кнопка, это [фишка](https://designsystems.surf/components/chip).
 
-Постарайтесь объяснить LLM, что вы ожидаете React-компонент <Chip />, причем не какой-нибудь, а контурный ("outlined").
+В библиотеке [ui.shadcn](https://ui.shadcn.com/) нет компонента <Chip> (или <Tag>), но его можно создать. С нуля или на основе [компонент <Badge>](https://ui.shadcn.com/docs/components/radix/badge) — он лучше всего подходит для этой задачи.
 
-P.S. Не страшно, если вы не знаете, что такое [React](https://www.w3schools.com/react/react_intro.asp). Еще узнаете.
-
-P.P.S. Если хотите, сходите к любимой LLM и попросите объяснить, что такое [React](https://www.w3schools.com/react/react_intro.asp). Так, будто вам 10 лет.
+Расспросите LLM-чат о том, как это правильно сделать. Вернитесь сюда и убедите LLM-инструмент реализовать план. 
