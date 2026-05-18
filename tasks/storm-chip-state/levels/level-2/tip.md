@@ -2,6 +2,6 @@
 
 Это не кнопка, это [фишка](https://designsystems.surf/components/chip).
 
-В библиотеке [ui.shadcn](https://ui.shadcn.com/) нет компонента <Chip> (или <Tag>), но его можно создать. С нуля или на основе [компонент <Badge>](https://ui.shadcn.com/docs/components/radix/badge) — он лучше всего подходит для этой задачи.
+В библиотеке [ui.shadcn](https://ui.shadcn.com/) нет компонента <Chip> (или <Tag>), но его можно создать. С нуля или на основе [компонента <Badge>](https://ui.shadcn.com/docs/components/radix/badge) — он лучше всего подходит для этой задачи.
 
 Расспросите LLM-чат о том, как это правильно сделать. Вернитесь сюда и убедите LLM-инструмент реализовать план. 
