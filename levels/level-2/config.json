@@ -1,7 +1,7 @@
 {
   "id": "level-2",
   "number": 2,
-  "title": "Уровень 2",
+  "title": "Вызываем UI-библиотеку",
   "layoutKey": "shared-lab",
   "maxPromptsPerTask": 3,
   "labId": "level-2",
@@ -12,7 +12,6 @@
     }
   ],
   "editableFileIds": [
-    "component",
-    "styles"
+    "component"
   ]
 }
