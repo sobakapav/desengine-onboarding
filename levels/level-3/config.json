@@ -1,25 +1,18 @@
 {
   "id": "level-3",
   "number": 3,
-  "title": "Уровень 3",
+  "title": "Стили живут отдельно",
   "layoutKey": "shared-lab",
-  "maxPromptsPerTask": 10,
+  "maxPromptsPerTask": 2,
   "labId": "shared-lab",
   "images": [
     {
       "id": "base",
       "show": true
-    },
-    {
-      "id": "variants",
-      "show": true
     }
   ],
   "editableFileIds": [
     "component",
-    "stories",
-    "styles",
-    "mock",
-    "props"
+    "styles"
   ]
 }
