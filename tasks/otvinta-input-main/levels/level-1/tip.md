@@ -1,4 +1,4 @@
-Вот такой сложный, интересный [инпут](https://www.w3schools.com/tags/tag_input.asp).
+Вот такой интересный [инпут](https://www.w3schools.com/tags/tag_input.asp).
 
 Убедитесь, что введённый текст не залезает на правую иконку.
 
