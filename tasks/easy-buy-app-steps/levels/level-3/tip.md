@@ -1,0 +1,1 @@
+Просто напомним, что круг — это квадрат со [скругленными уголками]([`rounded-full`](https://tailwindcss.com/docs/border-radius)):)
