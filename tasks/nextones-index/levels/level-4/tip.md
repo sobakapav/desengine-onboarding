@@ -1,0 +1,3 @@
+В файле `styles.ts` с помощью [Tailwind](https://tailwindcss.com/)-классов должны быть описаны:
+1. Стили текста: [шрифт](https://tailwindcss.com/docs/font-family), [его размер](https://tailwindcss.com/docs/font-size), [цвет](https://tailwindcss.com/docs/color), [жирность](https://tailwindcss.com/docs/font-style), [высота строки](https://tailwindcss.com/docs/line-height) и т.д.
+2. Стили круглого маркера: [цвет](https://tailwindcss.com/docs/background-color), [ширина](https://tailwindcss.com/docs/width), [высота](https://tailwindcss.com/docs/height) и [скругление](https://tailwindcss.com/docs/border-radius).

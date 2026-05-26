@@ -1,0 +1,2 @@
+1. Убедитесь, что [иконка](https://tailwindcss.com/docs/stroke), [текст](https://tailwindcss.com/docs/color) и шеврон — [одного цвета](https://tailwindcss.com/docs/colors).
+2. Сделайте так, чтоб [курсор](https://tailwindcss.com/docs/cursor) [менялся при наведении](https://tailwindcss.com/docs/hover-focus-and-other-states).

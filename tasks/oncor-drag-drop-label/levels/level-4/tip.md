@@ -1,0 +1,2 @@
+1. Воспроизведите как можно точнее текстовые стили образца в файле `styles.ts`с помощью классов [Tailwind CSS](https://tailwindcss.com).
+2. Придумайте и опишите, используя [псевдоклассы](https://tailwindcss.com/docs/hover-focus-and-other-states), как компонент ведет себя по наведении мыши.

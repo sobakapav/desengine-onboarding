@@ -1,0 +1,1 @@
+Чтобы справиться с этой задачей, почитайте документацию Tailwind CSS [про адаптивный дизайн](https://tailwindcss.com/docs/responsive-design) и [режимы отображения](https://tailwindcss.com/docs/display).
