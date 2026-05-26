@@ -6,7 +6,7 @@
 - [цвет границы](https://tailwindcss.com/docs/border-color);
 - [цвет подчеркивания](https://tailwindcss.com/docs/text-decoration-color);
 - [цвет тени](https://tailwindcss.com/docs/box-shadow);
-- [цвет SVG-элемента](https://tailwindcss.com/docs/fill);
+- [цвет линии](https://tailwindcss.com/docs/stroke) и [цвет заливки](https://tailwindcss.com/docs/fill) SVG-изображений;
 - [цвет курсора](https://tailwindcss.com/docs/caret-color)
 
 и так далее.

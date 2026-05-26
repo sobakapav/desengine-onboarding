@@ -1,1 +1,4 @@
-Напомним критерии оценки: есть `Component.tsx` (логика) и `styles.ts` (стили), используется [Tailwind CSS](https://tailwindcss.com/). Соответствие стилей картинке-образцу на этом уровне не проверяем, играйте в свое удовольствие.
+У иконки тоже есть стили. Почитайте про [Tailwind CSS](https://tailwindcss.com)-классы, предназначенные для SVG-изображений:
+- цвет заливки [`fill`](https://tailwindcss.com/docs/fill);
+- цвет линии [`stroke`](https://tailwindcss.com/docs/stroke);
+- толщину линиии [`stroke-width`](https://tailwindcss.com/docs/stroke-width).
