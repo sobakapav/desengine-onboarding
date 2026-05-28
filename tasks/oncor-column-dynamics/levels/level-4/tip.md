@@ -1,0 +1,3 @@
+1. Убедитесь, что у компонента корректные текстовые стили: [шрифт](https://tailwindcss.com/docs/font-family), [его размер](https://tailwindcss.com/docs/font-size), [цвет](https://tailwindcss.com/docs/color), [жирность](https://tailwindcss.com/docs/font-style), [высота строки](https://tailwindcss.com/docs/line-height) и т.д.
+2. Убедитесь, что текст лежит [на прозрачном фоне](https://tailwindcss.com/docs/background-color).
+3. И главное, убедитесь, что стили описаны в `styles.ts` через классы [Tailwind CSS](https://tailwindcss.com/).

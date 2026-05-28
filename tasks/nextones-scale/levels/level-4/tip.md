@@ -1,1 +1,1 @@
-Стили компонета должны быть описаны в файле `styles.ts`с помощью классов [Tailwind CSS](https://tailwindcss.com) и максимально точно воспроизводить образец.
+Чтобы правильно расположить числа на шкале, почитайте про [`flex`](https://tailwindcss.com/docs/display) и клаасы, которые описыват расположение и выравнивание его элементов ([`justify-content`](https://tailwindcss.com/docs/justify-content) и т.д.)
