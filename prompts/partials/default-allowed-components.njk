@@ -1,5 +1,5 @@
 ## Используемые компоненты
-Крайне желательно вместо сырого HTML использовать традиционные компоненты React/Next.js: Fragment, Link, Image, Script, Head, Route, Routes, Outlet, Navigate, Option.
+Крайне желательно сначала искать решение среди обычных React-примитивов и уже существующих компонентов проекта. Безопасный путь по умолчанию для текущего preview/runtime: `Fragment` и компоненты, которые уже есть в проекте и импортируются из `"@/components/ui/"`.
 
 Также разрешены такие shadcn/ui-компоненты: Accordion, Alert, Alert Dialog, Aspect Ratio, Avatar, Badge, Breadcrumb, Button, Button Group, Calendar, Card, Carousel, Chart, Checkbox, Collapsible, Combobox, Command, Context Menu, Data Table, Date Picker, Dialog, Direction, Drawer, Dropdown Menu, Empty, Field, Hover Card, Input, Input Group, Input OTP, Item, Kbd, Label, Menubar, Native Select, Navigation Menu, Pagination, Popover, Progress, Radio Group, Resizable, Scroll Area, Select, Separator, Sheet, Sidebar, Skeleton, Slider, Sonner, Spinner, Switch, Table, Tabs, Textarea, Toast, Toggle, Toggle Group, Tooltip. Эти компоненты нужно импортировать из "@/components/ui/".
 
@@ -7,6 +7,6 @@
 
 Компонент Text запрещён.
 
-Стандартные HTML-теги использовать можно, но только если в списках выше не нашлось ничего подходящего.
+Стандартные HTML-теги использовать можно, если в проекте нет готового компонента с нужной семантикой. Не придумывай внешние runtime-зависимости и не рассчитывай по умолчанию на framework/router-окружение, которого в preview нет.
 
 Важно: верни результат строго в формате JSON, который описан ниже.
