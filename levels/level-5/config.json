@@ -19,7 +19,6 @@
     "component",
     "stories",
     "styles",
-    "mock",
-    "props"
+    "mock"
   ]
 }
