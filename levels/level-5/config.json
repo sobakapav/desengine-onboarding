@@ -12,7 +12,7 @@
     },
     {
       "id": "variants",
-      "show": true
+      "show": false
     }
   ],
   "editableFileIds": [
