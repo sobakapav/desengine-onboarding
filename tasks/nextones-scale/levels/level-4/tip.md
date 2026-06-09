@@ -1,1 +1,1 @@
-Чтобы правильно расположить числа на шкале, почитайте про [`flex`](https://tailwindcss.com/docs/display) и клаасы, которые описыват расположение и выравнивание его элементов ([`justify-content`](https://tailwindcss.com/docs/justify-content) и т.д.)
+Чтобы правильно расположить числа на шкале, почитайте про [`flex`](https://tailwindcss.com/docs/display) и классы, которые описыват расположение и выравнивание его элементов ([`justify-content`](https://tailwindcss.com/docs/justify-content) и т.д.)

@@ -1,1 +1,10 @@
+{%- extends "base.njk" -%}
+{%- block body -%}
+Используй код из `Component.tsx` и мок-данные из файла `mock.ts`, чтобы создать историю в файле историй `Component.stories.ts`.
 
+Правила генерации `stories.ts`:
+1. Используй стандарт Storybook Component Story Format (CSF 3) с типами Meta и StoryObj из '@storybook/react'.
+2. Создай базовый `meta` объект с дефолтным экспортом. Поле `title` должно иметь формат 'Components/[ComponentName]'.
+3. Экспортируй историю для каждого сценария из `mock.ts`, передавая мок-данные в поле `args`.
+
+{%- endblock -%}
