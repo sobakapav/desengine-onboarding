@@ -6,7 +6,7 @@
 
 `export const containerClass = 'flex items-center'; export const itemClass = 'h-4 w-4 rounded-full..'; export const labelClass = 'text-sm font-medium leading-none..`
 
-Только, скорее всего, длиннее,  мы сократил.
+Только, скорее всего, длиннее, мы сократил.
 
 Что там такое экспортируется-то? Мы уже сказали вам, что стили. Но вообще-то мы слегка приврали для понятности:(
 
