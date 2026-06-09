@@ -1,22 +1,24 @@
-А у чекбокса в мок-файле могут быть, например, вот такие данные:
+Как и для чекбокса, для одиночной радиокнопки логично сделать несколько вариантов текста и три главных состояния: «активна/выбрана», «пуста» и «заблокирована».
 
+Но радиокнопки редко гуляют сами по себе, обычно они входят в состав радиогруппы. Полезно показать это в моках.
+
+Например:
 ``
-export const uncheckedRadioMock = {
-name: 'agreement',
-label: 'Я принимаю условия соглашения',
-checked: false,
-};
-
-export const checkedRadioMock = {
-name: 'agreement',
-label: 'Я принимаю условия соглашения',
-checked: true,
-};
-
-export const disabledRadioMock = {
-name: 'agreement',
-label: 'Заблокированная опция',
-checked: false,
-disabled: true,
+export const mockData = {
+	options: [
+		{
+		label: "Банковская карта",
+		value: "card",
+		},
+		{
+		label: "СБП",
+		value: "sbp",
+		},
+		{
+		label: "Наличными при получении",
+		value: "cash",
+		},
+	],
+selectedValue: "card",
 };
 ``

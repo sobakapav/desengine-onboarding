@@ -1,23 +1,17 @@
-А вот так могут выглядеть мок-данные для кнопки:
-
+Кнопка — это не просто какая-то надпись на прямогольнике со скругленными уголками. Кнопка почти всегда запускает какое-то действие. Поэтому хороший мок должен показывать понятные действия пользователя. Например:
 ``
-import { ButtonProps } from './Button';
-
-export const primaryButtonMock: ButtonProps = {
-label: 'Сохранить и продолжить',
-variant: 'primary',
-disabled: false,
-};
-
-export const secondaryButtonMock: ButtonProps = {
-label: 'Отмена',
-variant: 'secondary',
-disabled: false,
-};
-
-export const disabledButtonMock: ButtonProps = {
-label: 'Недоступно',
-variant: 'primary',
-disabled: true,
-};
+export const mockData = [
+	{
+	label: 'Сохранить и продолжить',
+	disabled: false,
+	},
+	{
+	label: 'Назад',
+	disabled: false,
+	},
+	{
+	label: 'Удалить',
+	disabled: true,
+	}
+];
 ``
